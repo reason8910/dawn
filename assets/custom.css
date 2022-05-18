@@ -3,6 +3,9 @@
 .list-menu > li summary{
   text-transform: uppercase;
 }
+.mega-menu__content .mega-menu__list{
+	text-transform: uppercase;
+}
 
 /* DESKTOP ONLY */
 
