@@ -1,5 +1,5 @@
 /* HEADER */
-.list-menu{
+.list-menu>li{
   text-transform: uppercase;
 }
 
