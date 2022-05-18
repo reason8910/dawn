@@ -1,6 +1,6 @@
 /* HEADER */
 .list-menu > li > a,
-.list-menu > li summery{
+.list-menu > li summary{
   text-transform: uppercase;
 }
 
