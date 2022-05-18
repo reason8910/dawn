@@ -53,7 +53,7 @@
       "settings": {
         "type_header_font": {
           "label": "Phông chữ",
-          "info": "Việc chọn phông chữ khác có thể ảnh hưởng đến tốc độ của cửa hàng. [Tìm hiểu thêm về phông chữ hệ thống.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Việc chọn phông chữ khác có thể ảnh hưởng đến tốc độ của cửa hàng. [Tìm hiểu thêm về phông chữ hệ thống.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "header__1": {
           "content": "Tiêu đề"
@@ -63,7 +63,7 @@
         },
         "type_body_font": {
           "label": "Phông chữ",
-          "info": "Việc chọn phông chữ khác có thể ảnh hưởng đến tốc độ của cửa hàng. [Tìm hiểu thêm về phông chữ hệ thống.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Việc chọn phông chữ khác có thể ảnh hưởng đến tốc độ của cửa hàng. [Tìm hiểu thêm về phông chữ hệ thống.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "Tỷ lệ cỡ phông chữ"
@@ -299,6 +299,36 @@
     },
     "drawers": {
       "name": "Ngăn"
+    },
+    "cart": {
+      "name": "Giỏ hàng",
+      "settings": {
+        "cart_type": {
+          "label": "Loại giỏ hàng",
+          "drawer": {
+            "label": "Ngăn"
+          },
+          "page": {
+            "label": "Trang"
+          },
+          "notification": {
+            "label": "Thông báo cửa sổ bật lên"
+          }
+        },
+        "show_vendor": {
+          "label": "Hiển thị nhà cung cấp"
+        },
+        "show_cart_note": {
+          "label": "Bật ghi chú trong giỏ hàng"
+        },
+        "cart_drawer": {
+          "header": "Ngăn giỏ hàng",
+          "collection": {
+            "label": "Bộ sưu tập",
+            "info": "Hiển thị khi ngăn giỏ hàng trống"
+          }
+        }
+      }
     }
   },
   "sections": {
@@ -338,6 +368,9 @@
         },
         "options__3": {
           "label": "Lớn"
+        },
+        "options__4": {
+          "label": "Cực lớn"
         }
       }
     },
@@ -434,7 +467,7 @@
             },
             "description": {
               "label": "Văn bản thay thế cho video",
-              "info": "Mô tả video cho khách hàng bằng trình đọc màn hình. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
+              "info": "Mô tả video cho khách hàng bằng trình đọc màn hình. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           }
         }
@@ -460,7 +493,7 @@
           "options__3": {
             "label": "Vuông"
           },
-          "info": "Chỉnh sửa bộ sưu tập để thêm hình ảnh. [Tìm hiểu thêm](https://help.shopify.com/en/manual/products/collections)"
+          "info": "Chỉnh sửa bộ sưu tập để thêm hình ảnh. [Tìm hiểu thêm](https://help.shopify.com/manual/products/collections)"
         },
         "swipe_on_mobile": {
           "label": "Bật tính năng quẹt trên di động"
@@ -533,7 +566,7 @@
         },
         "show_image": {
           "label": "Hiển thị hình ảnh nổi bật",
-          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 3:2. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 3:2. [Tìm hiểu thêm](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "show_date": {
           "label": "Hiển thị ngày"
@@ -587,7 +620,11 @@
         },
         "show_rating": {
           "label": "Hiển thị thứ hạng sản phẩm",
-          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
+          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "enable_quick_buy": {
+          "label": "Bật nút thêm nhanh",
+          "info": "Tối ưu với cửa sổ bật lên hoặc giỏ hàng kiểu ngăn kéo."
         },
         "columns_desktop": {
           "label": "Số cột trên màn hình máy tính"
@@ -685,7 +722,7 @@
         },
         "header__1": {
           "content": "Đăng ký nhận email",
-          "info": "Đã tự động thêm người đăng ký vào danh sách khách hàng \"chấp nhận tiếp thị\". [Tìm hiểu thêm](https://help.shopify.com/en/manual/customers/manage-customers)"
+          "info": "Đã tự động thêm người đăng ký vào danh sách khách hàng \"chấp nhận tiếp thị\". [Tìm hiểu thêm](https://help.shopify.com/manual/customers/manage-customers)"
         },
         "header__2": {
           "content": "Biểu tượng truyền thông xã hội",
@@ -813,7 +850,7 @@
           "options__3": {
             "label": "Lớn"
           },
-          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 3:2. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 3:2. [Tìm hiểu thêm](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__1": {
@@ -1105,7 +1142,7 @@
               "options__3": {
                 "label": "Trung bình"
               },
-              "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+              "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
               "options__4": {
                 "label": "Lớn"
               }
@@ -1130,10 +1167,10 @@
           "name": "Chia sẻ",
           "settings": {
             "featured_image_info": {
-              "content": "Nếu bạn đưa liên kết vào bài đăng trên truyền thông xã hội, hình ảnh nổi bật của trang sẽ hiển thị giống hình ảnh xem trước. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Nếu bạn đưa liên kết vào bài đăng trên truyền thông xã hội, hình ảnh nổi bật của trang sẽ hiển thị giống hình ảnh xem trước. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Hình ảnh xem trước có chứa tiêu đề và mô tả của cửa hàng. [Tìm hiểu thêm](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Hình ảnh xem trước có chứa tiêu đề và mô tả của cửa hàng. [Tìm hiểu thêm](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "text": {
               "label": "Văn bản"
@@ -1152,7 +1189,7 @@
           "label": "Hiển thị hình ảnh nổi bật"
         },
         "paragraph": {
-          "content": "Chỉnh sửa bài viết blog để thay đổi đoạn trích. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post)"
+          "content": "Chỉnh sửa bài viết blog để thay đổi đoạn trích. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post)"
         },
         "show_date": {
           "label": "Hiển thị ngày"
@@ -1184,17 +1221,12 @@
           "options__4": {
             "label": "Lớn"
           },
-          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 3:2. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 3:2. [Tìm hiểu thêm](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       }
     },
     "main-cart-footer": {
       "name": "Tổng phụ",
-      "settings": {
-        "show_cart_note": {
-          "label": "Bật ghi chú trong giỏ hàng"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Giá tổng phụ"
@@ -1205,25 +1237,20 @@
       }
     },
     "main-cart-items": {
-      "name": "Mặt hàng",
-      "settings": {
-        "show_vendor": {
-          "label": "Hiển thị nhà cung cấp"
-        }
-      }
+      "name": "Mặt hàng"
     },
     "main-collection-banner": {
       "name": "Biểu ngữ bộ sưu tập",
       "settings": {
         "paragraph": {
-          "content": "Chỉnh sửa bộ sưu tập để thêm mô tả hoặc hình ảnh. [Tìm hiểu thêm](https://help.shopify.com/en/manual/products/collections/collection-layout)"
+          "content": "Chỉnh sửa bộ sưu tập để thêm mô tả hoặc hình ảnh. [Tìm hiểu thêm](https://help.shopify.com/manual/products/collections/collection-layout)"
         },
         "show_collection_description": {
           "label": "Hiển thị mô tả bộ sưu tập"
         },
         "show_collection_image": {
           "label": "Hiển thị hình ảnh bộ sưu tập",
-          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       }
     },
@@ -1268,12 +1295,13 @@
         "header__3": {
           "content": "Thẻ sản phẩm"
         },
-        "collapse_on_larger_devices": {
-          "label": "Thu nhỏ trên màn hình máy tính"
-        },
         "show_rating": {
           "label": "Hiển thị thứ hạng sản phẩm",
-          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
+          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-grid-section-settings)"
+        },
+        "enable_quick_buy": {
+          "label": "Bật nút thêm nhanh",
+          "info": "Tối ưu với cửa sổ bật lên hoặc giỏ hàng kiểu ngăn kéo."
         },
         "columns_desktop": {
           "label": "Số cột trên màn hình máy tính"
@@ -1289,6 +1317,19 @@
           "options__2": {
             "label": "2 cột"
           }
+        },
+        "filter_type": {
+          "label": "Bố cục bộ lọc trên màn hình máy tính",
+          "options__1": {
+            "label": "Ngang"
+          },
+          "options__2": {
+            "label": "Dọc"
+          },
+          "options__3": {
+            "label": "Ngăn"
+          },
+          "info": "Ngăn là bố cục mặc định trên di động."
         }
       }
     },
@@ -1330,7 +1371,7 @@
           "options__3": {
             "label": "Vuông"
           },
-          "info": "Chỉnh sửa bộ sưu tập để thêm hình ảnh. [Tìm hiểu thêm](https://help.shopify.com/en/manual/products/collections)"
+          "info": "Chỉnh sửa bộ sưu tập để thêm hình ảnh. [Tìm hiểu thêm](https://help.shopify.com/manual/products/collections)"
         },
         "columns_desktop": {
           "label": "Số cột trên màn hình máy tính"
@@ -1432,10 +1473,10 @@
           "name": "Chia sẻ",
           "settings": {
             "featured_image_info": {
-              "content": "Nếu bạn đưa liên kết vào bài đăng trên truyền thông xã hội, hình ảnh nổi bật của trang sẽ hiển thị giống hình ảnh xem trước. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Nếu bạn đưa liên kết vào bài đăng trên truyền thông xã hội, hình ảnh nổi bật của trang sẽ hiển thị giống hình ảnh xem trước. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Hình ảnh xem trước có chứa tiêu đề và mô tả của cửa hàng. [Tìm hiểu thêm](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Hình ảnh xem trước có chứa tiêu đề và mô tả của cửa hàng. [Tìm hiểu thêm](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "text": {
               "label": "Văn bản"
@@ -1616,7 +1657,7 @@
           "name": "Thứ hạng sản phẩm",
           "settings": {
             "paragraph": {
-              "content": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
+              "content": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-rating-block)"
             }
           }
         }
@@ -1706,7 +1747,7 @@
         },
         "show_rating": {
           "label": "Hiển thị thứ hạng sản phẩm",
-          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
+          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#search-results-section-settings)"
         },
         "columns_desktop": {
           "label": "Số cột trên màn hình máy tính"
@@ -1834,7 +1875,7 @@
           "label": "Làm cho mục có chiều rộng đầy đủ"
         },
         "paragraph": {
-          "content": "Mỗi gói đăng ký qua email sẽ tạo một tài khoản khách hàng. [Tìm hiểu thêm](https://help.shopify.com/en/manual/customers)"
+          "content": "Mỗi gói đăng ký qua email sẽ tạo một tài khoản khách hàng. [Tìm hiểu thêm](https://help.shopify.com/manual/customers)"
         }
       },
       "blocks": {
@@ -1901,11 +1942,11 @@
           "label": "Hiển thị nhà cung cấp"
         },
         "paragraph__1": {
-          "content": "Đề xuất động sử dụng thông tin về đơn hàng và sản phẩm để thay đổi và cải thiện theo thời gian. [Tìm hiểu thêm](https://help.shopify.com/en/themes/development/recommended-products)"
+          "content": "Đề xuất động sử dụng thông tin về đơn hàng và sản phẩm để thay đổi và cải thiện theo thời gian. [Tìm hiểu thêm](https://help.shopify.com/themes/development/recommended-products)"
         },
         "show_rating": {
           "label": "Hiển thị thứ hạng sản phẩm",
-          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
+          "info": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
         },
         "columns_desktop": {
           "label": "Số cột trên màn hình máy tính"
@@ -1932,6 +1973,31 @@
       "settings": {
         "full_width": {
           "label": "Làm cho mục có chiều rộng đầy đủ"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Bên trái"
+          },
+          "options__2": {
+            "label": "Ở giữa"
+          },
+          "options__3": {
+            "label": "Bên phải"
+          },
+          "label": "Vị trí nội dung trên màn hình máy tính",
+          "info": "Vị trí được tự động tối ưu hóa cho thiết bị di động."
+        },
+        "content_alignment": {
+          "options__1": {
+            "label": "Bên trái"
+          },
+          "options__2": {
+            "label": "Ở giữa"
+          },
+          "options__3": {
+            "label": "Bên phải"
+          },
+          "label": "Căn chỉnh nội dung"
         }
       },
       "blocks": {
@@ -1951,17 +2017,57 @@
             }
           }
         },
-        "button": {
+        "buttons": {
           "name": "Nút",
           "settings": {
-            "button_label": {
-              "label": "Nhãn nút"
+            "button_label_1": {
+              "label": "Nhãn nút thứ nhất",
+              "info": "Để trống nhãn này để ẩn nút."
             },
-            "button_link": {
-              "label": "Liên kết trên nút"
+            "button_link_1": {
+              "label": "Liên kết trên nút thứ nhất"
             },
-            "button_style_secondary": {
+            "button_style_secondary_1": {
               "label": "Sử dụng kiểu nút viền ngoài"
+            },
+            "button_label_2": {
+              "label": "Nhãn nút thứ hai",
+              "info": "Để trống nhãn này để ẩn nút."
+            },
+            "button_link_2": {
+              "label": "Liên kết trên nút thứ hai"
+            },
+            "button_style_secondary_2": {
+              "label": "Sử dụng kiểu nút viền ngoài"
+            }
+          }
+        },
+        "caption": {
+          "name": "Phụ đề",
+          "settings": {
+            "text": {
+              "label": "Văn bản"
+            },
+            "text_style": {
+              "label": "Kiểu văn bản",
+              "options__1": {
+                "label": "Tiêu đề phụ"
+              },
+              "options__2": {
+                "label": "Chữ viết hoa"
+              }
+            },
+            "caption_size": {
+              "label": "Cỡ chữ",
+              "options__1": {
+                "label": "Nhỏ"
+              },
+              "options__2": {
+                "label": "Trung bình"
+              },
+              "options__3": {
+                "label": "Lớn"
+              }
             }
           }
         }
@@ -1997,7 +2103,7 @@
         },
         "description": {
           "label": "Văn bản thay thế cho video",
-          "info": "Mô tả video cho khách hàng bằng trình đọc màn hình. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "Mô tả video cho khách hàng bằng trình đọc màn hình. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Thêm vùng đệm ảnh",
@@ -2073,10 +2179,10 @@
           "name": "Chia sẻ",
           "settings": {
             "featured_image_info": {
-              "content": "Nếu bạn đưa liên kết vào bài đăng trên truyền thông xã hội, hình ảnh nổi bật của trang sẽ hiển thị giống hình ảnh xem trước. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)"
+              "content": "Nếu bạn đưa liên kết vào bài đăng trên truyền thông xã hội, hình ảnh nổi bật của trang sẽ hiển thị giống hình ảnh xem trước. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
             },
             "title_info": {
-              "content": "Hình ảnh xem trước có chứa tiêu đề và mô tả của cửa hàng. [Tìm hiểu thêm](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
+              "content": "Hình ảnh xem trước có chứa tiêu đề và mô tả của cửa hàng. [Tìm hiểu thêm](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
             },
             "text": {
               "label": "Văn bản"
@@ -2095,7 +2201,7 @@
           "name": "Thứ hạng sản phẩm",
           "settings": {
             "paragraph": {
-              "content": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
+              "content": "Nếu muốn hiển thị thứ hạng, hãy thêm ứng dụng xếp hạng sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-product-rating)"
             }
           }
         }
@@ -2126,7 +2232,7 @@
       "name": "Biểu ngữ đăng ký nhận email",
       "settings": {
         "paragraph": {
-          "content": "Mỗi gói đăng ký qua email sẽ tạo một tài khoản khách hàng. [Tìm hiểu thêm](https://help.shopify.com/en/manual/customers)"
+          "content": "Mỗi gói đăng ký qua email sẽ tạo một tài khoản khách hàng. [Tìm hiểu thêm](https://help.shopify.com/manual/customers)"
         },
         "image": {
           "label": "Ảnh nền"
@@ -2145,7 +2251,7 @@
         },
         "show_text_below": {
           "label": "Hiển thị nội dung dưới hình ảnh trên thiết bị di động",
-          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "image_height": {
           "label": "Chiều cao biểu ngữ",
@@ -2161,7 +2267,7 @@
           "options__4": {
             "label": "Lớn"
           },
-          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Để có kết quả tốt nhất, hãy sử dụng hình ảnh có tỷ lệ khung hình 16:9. [Tìm hiểu thêm](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__1": {
