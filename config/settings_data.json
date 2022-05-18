@@ -97,6 +97,10 @@
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
     "cart_type": "drawer",
+    "show_cart_note": true,
+    "cart_drawer_collection": "frontpage",
+    "checkout_heading_font": "Open Sans",
+    "checkout_body_font": "Open Sans",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -185,6 +189,11 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
         }
       }
     },
