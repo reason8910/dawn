@@ -76,7 +76,7 @@
           "options__4": {
             "label": "Top right"
           },
-          "label": "Product card position"
+          "label": "Position on cards"
         },
         "sale_badge_color_scheme": {
           "label": "Sale badge color scheme"
@@ -140,9 +140,6 @@
         "type_header_font": {
           "label": "Font",
           "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
-        },
-        "heading_scale": {
-          "label": "Font size scale"
         },
         "heading_scale": {
           "label": "Font size scale"
@@ -817,8 +814,7 @@
           "name": "Menu",
           "settings": {
             "heading": {
-              "label": "Heading",
-              "info": "Heading required to display the menu."
+              "label": "Heading"
             },
             "menu": {
               "label": "Menu",
