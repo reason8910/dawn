@@ -109,7 +109,7 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
@@ -124,7 +124,6 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-2",
-          "logo": "shopify:\/\/shop_images\/logo-blk-lrg.png",
           "logo_width": 250,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -200,40 +199,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "2379886731283339381": {
-        "type": "shopify:\/\/apps\/app3\/blocks\/app-embed\/2f30063f-54db-40af-9e75-e43cbaeb4612",
-        "disabled": false,
-        "settings": {
-          "heading": "Choose your store",
-          "description": "You will be redirected.",
-          "layout": "popup",
-          "color_tx": "#000000",
-          "color_bg": "#faeceb",
-          "show_underlay": true,
-          "imagepop": "shopify:\/\/shop_images\/DataGlossary_Icons_Symbol_Maps.jpg",
-          "country_name1": "AU",
-          "country_link1": "#",
-          "country_name2": "US",
-          "country_link2": "#",
-          "country_name3": "UK",
-          "country_link3": "#",
-          "country_name4": "",
-          "country_link4": "",
-          "country_name5": "",
-          "country_link5": "",
-          "country_name6": "",
-          "country_link6": "",
-          "country_name7": "",
-          "country_link7": "",
-          "country_name8": "",
-          "country_link8": "",
-          "country_name9": "",
-          "country_link9": ""
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
@@ -348,7 +314,9 @@
           },
           "block_order": [
             "announcement-bar-0"
-          ]
+          ],
+          "settings": {
+          }
         },
         "header": {
           "type": "header",
