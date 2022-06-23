@@ -199,7 +199,40 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "5154415591783427663": {
+        "type": "shopify:\/\/apps\/easy-popup-store-redirector\/blocks\/app-embed\/6dc98440-26af-4123-93e4-b6a97b3df19f",
+        "disabled": false,
+        "settings": {
+          "heading": "Choose your store",
+          "description": "You will be redirected.",
+          "layout": "popup",
+          "color_tx": "#000000",
+          "color_bg": "#faeceb",
+          "show_underlay": true,
+          "imagepop": "shopify:\/\/shop_images\/DataGlossary_Icons_Symbol_Maps.jpg",
+          "country_name1": "AU",
+          "country_link1": "#",
+          "country_name2": "US",
+          "country_link2": "#",
+          "country_name3": "UK",
+          "country_link3": "#",
+          "country_name4": "",
+          "country_link4": "",
+          "country_name5": "",
+          "country_link5": "",
+          "country_name6": "",
+          "country_link6": "",
+          "country_name7": "",
+          "country_link7": "",
+          "country_name8": "",
+          "country_link8": "",
+          "country_name9": "",
+          "country_link9": ""
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
