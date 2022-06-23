@@ -1,120 +1,47 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#121212",
-    "gradient_accent_1": "",
-    "colors_accent_2": "#bc997d",
-    "gradient_accent_2": "",
+    "colors_accent_1": "#2aa3a5",
+    "colors_accent_2": "#90d7c9",
     "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
+    "colors_outline_button_labels": "#2aa3a5",
     "colors_background_1": "#ffffff",
-    "gradient_background_1": "",
-    "colors_background_2": "#faeceb",
-    "gradient_background_2": "",
+    "colors_background_2": "#f3f3f3",
     "type_header_font": "sans-serif",
-    "heading_scale": 100,
     "type_body_font": "sans-serif",
-    "body_scale": 100,
-    "page_width": 1400,
-    "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
-    "buttons_border_thickness": 1,
-    "buttons_border_opacity": 100,
-    "buttons_radius": 0,
-    "buttons_shadow_opacity": 0,
-    "buttons_shadow_horizontal_offset": 0,
-    "buttons_shadow_vertical_offset": 4,
-    "buttons_shadow_blur": 5,
-    "variant_pills_border_thickness": 1,
-    "variant_pills_border_opacity": 55,
-    "variant_pills_radius": 40,
-    "variant_pills_shadow_opacity": 0,
-    "variant_pills_shadow_horizontal_offset": 0,
-    "variant_pills_shadow_vertical_offset": 4,
-    "variant_pills_shadow_blur": 5,
-    "inputs_border_thickness": 1,
-    "inputs_border_opacity": 55,
-    "inputs_radius": 0,
-    "inputs_shadow_opacity": 0,
-    "inputs_shadow_horizontal_offset": 0,
-    "inputs_shadow_vertical_offset": 4,
-    "inputs_shadow_blur": 5,
-    "card_style": "standard",
-    "card_image_padding": 0,
-    "card_text_alignment": "left",
-    "card_color_scheme": "background-1",
-    "card_border_thickness": 0,
-    "card_border_opacity": 10,
-    "card_corner_radius": 0,
-    "card_shadow_opacity": 0,
-    "card_shadow_horizontal_offset": 0,
-    "card_shadow_vertical_offset": 4,
-    "card_shadow_blur": 5,
-    "text_boxes_border_thickness": 0,
-    "text_boxes_border_opacity": 10,
-    "text_boxes_radius": 0,
-    "text_boxes_shadow_opacity": 0,
-    "text_boxes_shadow_horizontal_offset": 0,
-    "text_boxes_shadow_vertical_offset": 4,
-    "text_boxes_shadow_blur": 5,
-    "media_border_thickness": 1,
-    "media_border_opacity": 5,
-    "media_radius": 0,
-    "media_shadow_opacity": 0,
-    "media_shadow_horizontal_offset": 0,
-    "media_shadow_vertical_offset": 4,
-    "media_shadow_blur": 5,
-    "popup_border_thickness": 1,
-    "popup_border_opacity": 10,
-    "popup_corner_radius": 0,
-    "popup_shadow_opacity": 0,
-    "popup_shadow_horizontal_offset": 0,
-    "popup_shadow_vertical_offset": 4,
-    "popup_shadow_blur": 5,
-    "drawer_border_thickness": 1,
-    "drawer_border_opacity": 10,
-    "drawer_shadow_opacity": 0,
-    "drawer_shadow_horizontal_offset": 0,
-    "drawer_shadow_vertical_offset": 4,
-    "drawer_shadow_blur": 5,
-    "badge_position": "bottom left",
-    "badge_corner_radius": 40,
-    "sale_badge_color_scheme": "accent-2",
-    "sold_out_badge_color_scheme": "inverse",
-    "accent_icons": "text",
-    "social_twitter_link": "",
-    "social_facebook_link": "",
-    "social_pinterest_link": "",
-    "social_instagram_link": "",
-    "social_tiktok_link": "",
-    "social_tumblr_link": "",
-    "social_snapchat_link": "",
-    "social_youtube_link": "",
-    "social_vimeo_link": "",
-    "predictive_search_enabled": true,
-    "predictive_search_show_vendor": false,
-    "predictive_search_show_price": false,
-    "currency_code_enabled": true,
-    "cart_type": "drawer",
-    "show_cart_note": true,
-    "cart_drawer_collection": "frontpage",
-    "checkout_heading_font": "Open Sans",
-    "checkout_body_font": "Open Sans",
+    "page_width": 1200,
+    "social_facebook_link": "https:\/\/www.facebook.com\/olliesplaceshop\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/olliesplaceshop\/",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@olliesplace_kids",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UClUEIovjfAWvHY3SuXgw0EA",
+    "favicon": "shopify:\/\/shop_images\/Ollie_s_Place_Favicon-08.png",
+    "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/ozland-logo.jpg",
+    "checkout_accent_color": "#2aa3a5",
+    "checkout_button_color": "#2aa3a5",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "1542a2fc-31a8-46b6-beda-d04b2bd0f2f1": {
+            "type": "announcement",
+            "settings": {
+              "text": "Want 10% OFF your next order? Join Ollies Friends",
+              "color_scheme": "accent-2",
+              "link": "shopify:\/\/pages\/subsribe-to-ollies-friends"
+            }
+          },
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "WELCOME TO OUR STORE",
-              "color_scheme": "accent-2",
+              "text": "FREE SHIPPING AU-WIDE ON ORDERS OVER $60.",
+              "color_scheme": "background-1",
               "link": ""
             }
           }
         },
         "block_order": [
+          "1542a2fc-31a8-46b6-beda-d04b2bd0f2f1",
           "announcement-bar-0"
         ],
         "settings": {
@@ -123,17 +50,13 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-2",
-          "logo": "shopify:\/\/shop_images\/logo-blk-lrg.png",
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/Ollie_s_Place_Logos_-_Main.jpg",
           "logo_width": 250,
-          "logo_position": "middle-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
-          "menu_type_desktop": "mega",
-          "show_line_separator": true,
-          "enable_sticky_header": true,
-          "margin_bottom": 0,
-          "padding_top": 20,
-          "padding_bottom": 20
+          "show_line_separator": false,
+          "enable_sticky_header": true
         }
       },
       "footer": {
@@ -142,197 +65,64 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "SHOP",
+              "menu": "quick-links"
+            }
+          },
+          "298e2ec6-bf9e-4593-8a97-2bac68b833ef": {
+            "type": "link_list",
+            "settings": {
+              "heading": "INFORMATION",
+              "menu": "information"
+            }
+          },
+          "6138af16-a1ec-45a8-b35c-ffaed9dd5dcc": {
+            "type": "link_list",
+            "settings": {
+              "heading": "CUSTOMER SERVICE",
               "menu": "footer"
             }
           },
           "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "OLLIES PLACE KIDSWEAR",
+              "subtext": "<p>Proudly Australian owned & operated since 2005.<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "footer-2"
+          "298e2ec6-bf9e-4593-8a97-2bac68b833ef",
+          "6138af16-a1ec-45a8-b35c-ffaed9dd5dcc",
+          "footer-1"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "SIGN UP FOR OUR NEWSLETTER",
           "show_social": true,
-          "enable_country_selector": false,
-          "enable_language_selector": false,
-          "payment_enable": true,
-          "margin_top": 48,
-          "padding_top": 36,
-          "padding_bottom": 36
-        }
-      },
-      "main-password-header": {
-        "type": "main-password-header",
-        "settings": {
-          "logo_max_width": 100,
-          "color_scheme": "background-1"
-        }
-      },
-      "main-password-footer": {
-        "type": "main-password-footer",
-        "settings": {
-          "color_scheme": "background-1"
-        }
-      },
-      "cart-drawer": {
-        "type": "cart-drawer",
-        "settings": {
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
         }
       }
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "5154415591783427663": {
-        "type": "shopify:\/\/apps\/easy-popup-store-redirector\/blocks\/app-embed\/6dc98440-26af-4123-93e4-b6a97b3df19f",
-        "disabled": false,
-        "settings": {
-          "heading": "Choose your store",
-          "description": "You will be redirected.",
-          "layout": "popup",
-          "color_tx": "#000000",
-          "color_bg": "#faeceb",
-          "show_underlay": true,
-          "imagepop": "shopify:\/\/shop_images\/DataGlossary_Icons_Symbol_Maps.jpg",
-          "country_name1": "AU",
-          "country_link1": "#",
-          "country_name2": "US",
-          "country_link2": "#",
-          "country_name3": "UK",
-          "country_link3": "#",
-          "country_name4": "",
-          "country_link4": "",
-          "country_name5": "",
-          "country_link5": "",
-          "country_name6": "",
-          "country_link6": "",
-          "country_name7": "",
-          "country_link7": "",
-          "country_name8": "",
-          "country_link8": "",
-          "country_name9": "",
-          "country_link9": ""
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
-      "colors_solid_button_labels": "#ffffff",
+      "colors_solid_button_labels": "#FFFFFF",
       "colors_accent_1": "#121212",
-      "gradient_accent_1": "",
-      "colors_accent_2": "#334fb4",
-      "gradient_accent_2": "",
+      "colors_accent_2": "#334FB4",
       "colors_text": "#121212",
       "colors_outline_button_labels": "#121212",
-      "colors_background_1": "#ffffff",
-      "gradient_background_1": "",
-      "colors_background_2": "#f3f3f3",
-      "gradient_background_2": "",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
       "type_header_font": "assistant_n4",
-      "heading_scale": 100,
       "type_body_font": "assistant_n4",
-      "body_scale": 100,
-      "page_width": 1200,
-      "spacing_sections": 0,
-      "spacing_grid_horizontal": 8,
-      "spacing_grid_vertical": 8,
-      "buttons_border_thickness": 1,
-      "buttons_border_opacity": 100,
-      "buttons_radius": 0,
-      "buttons_shadow_opacity": 0,
-      "buttons_shadow_horizontal_offset": 0,
-      "buttons_shadow_vertical_offset": 4,
-      "buttons_shadow_blur": 5,
-      "variant_pills_border_thickness": 1,
-      "variant_pills_border_opacity": 55,
-      "variant_pills_radius": 40,
-      "variant_pills_shadow_opacity": 0,
-      "variant_pills_shadow_horizontal_offset": 0,
-      "variant_pills_shadow_vertical_offset": 4,
-      "variant_pills_shadow_blur": 5,
-      "inputs_border_thickness": 1,
-      "inputs_border_opacity": 55,
-      "inputs_radius": 0,
-      "inputs_shadow_opacity": 0,
-      "inputs_shadow_horizontal_offset": 0,
-      "inputs_shadow_vertical_offset": 4,
-      "inputs_shadow_blur": 5,
-      "card_style": "standard",
-      "card_image_padding": 0,
-      "card_text_alignment": "left",
-      "card_color_scheme": "background-2",
-      "card_border_thickness": 0,
-      "card_border_opacity": 10,
-      "card_corner_radius": 0,
-      "card_shadow_opacity": 0,
-      "card_shadow_horizontal_offset": 0,
-      "card_shadow_vertical_offset": 4,
-      "card_shadow_blur": 5,
-      "text_boxes_border_thickness": 0,
-      "text_boxes_border_opacity": 10,
-      "text_boxes_radius": 0,
-      "text_boxes_shadow_opacity": 0,
-      "text_boxes_shadow_horizontal_offset": 0,
-      "text_boxes_shadow_vertical_offset": 4,
-      "text_boxes_shadow_blur": 5,
-      "media_border_thickness": 1,
-      "media_border_opacity": 5,
-      "media_radius": 0,
-      "media_shadow_opacity": 0,
-      "media_shadow_horizontal_offset": 0,
-      "media_shadow_vertical_offset": 4,
-      "media_shadow_blur": 5,
-      "popup_border_thickness": 1,
-      "popup_border_opacity": 10,
-      "popup_corner_radius": 0,
-      "popup_shadow_opacity": 0,
-      "popup_shadow_horizontal_offset": 0,
-      "popup_shadow_vertical_offset": 4,
-      "popup_shadow_blur": 5,
-      "drawer_border_thickness": 1,
-      "drawer_border_opacity": 10,
-      "drawer_shadow_opacity": 0,
-      "drawer_shadow_horizontal_offset": 0,
-      "drawer_shadow_vertical_offset": 4,
-      "drawer_shadow_blur": 5,
-      "badge_position": "bottom left",
-      "badge_corner_radius": 40,
-      "sale_badge_color_scheme": "accent-2",
-      "sold_out_badge_color_scheme": "inverse",
-      "accent_icons": "text",
-      "social_twitter_link": "",
-      "social_facebook_link": "",
-      "social_pinterest_link": "",
-      "social_instagram_link": "",
-      "social_tiktok_link": "",
-      "social_tumblr_link": "",
-      "social_snapchat_link": "",
-      "social_youtube_link": "",
-      "social_vimeo_link": "",
-      "predictive_search_enabled": true,
-      "predictive_search_show_vendor": false,
-      "predictive_search_show_price": false,
-      "currency_code_enabled": true,
       "sections": {
         "announcement-bar": {
           "type": "announcement-bar",
@@ -340,9 +130,7 @@
             "announcement-bar-0": {
               "type": "announcement",
               "settings": {
-                "text": "Welcome to our store",
-                "color_scheme": "background-1",
-                "link": ""
+                "color_scheme": "background-1"
               }
             }
           },
@@ -351,73 +139,40 @@
           ],
           "settings": {
           }
-        },
-        "header": {
-          "type": "header",
-          "settings": {
-            "color_scheme": "background-1",
-            "logo_width": 90,
-            "logo_position": "middle-left",
-            "menu": "main-menu",
-            "show_line_separator": true,
-            "enable_sticky_header": true,
-            "margin_bottom": 0
-          }
-        },
+        }
+      }
+    },
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
         "footer": {
           "type": "footer",
           "blocks": {
-            "footer-0": {
+            "menu": {
               "type": "link_list",
               "settings": {
-                "heading": "Quick links",
-                "menu": "footer"
               }
             },
-            "footer-1": {
-              "type": "link_list",
-              "settings": {
-                "heading": "Info",
-                "menu": "footer"
-              }
-            },
-            "footer-2": {
+            "text": {
               "type": "text",
               "settings": {
-                "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
               }
             }
           },
           "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
+            "menu",
+            "text"
           ],
           "settings": {
-            "color_scheme": "background-1",
-            "newsletter_enable": true,
-            "newsletter_heading": "Subscribe to our emails",
-            "show_social": true,
-            "enable_country_selector": false,
-            "enable_language_selector": false,
-            "payment_enable": true,
-            "margin_top": 48,
-            "padding_top": 36,
-            "padding_bottom": 36
-          }
-        },
-        "main-password-header": {
-          "type": "main-password-header",
-          "settings": {
-            "logo_max_width": 100,
-            "color_scheme": "background-1"
-          }
-        },
-        "main-password-footer": {
-          "type": "main-password-footer",
-          "settings": {
-            "color_scheme": "background-1"
+            "color_scheme": "accent-1"
           }
         }
       }
