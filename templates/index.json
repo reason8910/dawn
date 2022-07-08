@@ -169,6 +169,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1657266257ff321978": {
+      "type": "apps",
+      "blocks": {
+        "42567987-8c00-41e0-8710-1282299e1236": {
+          "type": "shopify:\/\/apps\/brands-directory-section-2-0\/blocks\/brand-list\/3e9e5fc3-c3b5-4b41-9bf3-4a24ea180999",
+          "settings": {
+            "heading": "Brands Directory",
+            "text": "<p>Your intro text<\/p>",
+            "content_alignment": "left",
+            "text_color": "#000000",
+            "columns_desktop": 4,
+            "columns_mobile": 2,
+            "padding_top": 30,
+            "padding_bottom": 30
+          }
+        }
+      },
+      "block_order": [
+        "42567987-8c00-41e0-8710-1282299e1236"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -176,6 +200,7 @@
     "rich_text",
     "featured_collection",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "1657266257ff321978"
   ]
 }
