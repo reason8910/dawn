@@ -1,6 +1,113 @@
+<!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" defer="defer">
+<!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer="defer"></script>
+
+<section class="image-gallery-section" id="section-{{ section.id }}">
+  {%- if section.settings.heading != blank -%}
+    <div class="page-width">{{ section.settings.heading }}</div>
+  {%- endif -%}
+  
+  {%- if request.page_type == "article" -%} 
+    {% assign path = article.metafields.custom.gallery %}
+  {%- endif -%}
+  {%- if request.page_type == "page" -%} 
+    {% assign path = page.metafields.custom.gallery %}
+  {%- endif -%}
+    {%- if request.page_type == "product" -%} 
+    {% assign path = product.metafields.custom.gallery %}
+  {%- endif -%}
+
+{%- if path != blank -%}
+  <div class="meta-image-carousel {% unless section.settings.full_width != blank %} page-width{% endunless %}">
+  
+    <!-- Flickity Carousel Start -->
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": true }'>
+    {% assign file = path.value %}
+    {% for image in path.value %}
+    <div class="carousel-cell">
+    
+    <img class="lazyload" src=" {{ image | image_url: width: '1000x' }}" data-widths="[475, 880, 1200, 1620]" data-aspectratio="{{ image.aspect_ratio }}" data-sizes="auto" />
+    
+    <noscript>
+    <img class="grid-product__image lazyloaded" src="{{ image | image_url: width: '1000x' }}">
+    </noscript>
+    
+    </div>
+    {% endfor %}
+    </div>      
+    <!-- Flickity Carousel End -->    
+    
+  </div>
+  {%- endif -%}
+</section>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+    {
+      "name": "Metafield Carousel",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "label": "Heading",
+          "default": "<h2>Metafield Gallery Carousel</h2>",
+          "info": "Add a metafield to your page, article or product with the name 'Gallery' with type: 'File' and select 'List of files'. Save metafield, then bulk add images to your page, article or product metafield. These will automatically populate in this section."
+        },
+        
+        {
+          "type": "range",
+          "id": "images_per_row",
+          "label": "Images per row",
+          "min": 2,
+          "max": 6,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "range",
+          "id": "images_per_row_mobile",
+          "label": "Images per row on mobile",
+          "min": 1,
+          "max": 6,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "range",
+          "id": "grid_gap",
+          "label": "Grid gap",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "radius",
+          "label": "Rounded corners",
+          "min": 0,
+          "max": 50,
+          "step": 5,
+          "default": 0
+        },    
+        {
+          "type": "checkbox",
+          "id": "full_width",
+          "label": "Full width gallery",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "image_fit",
+          "label": "Image natural or scale to fit",
+          "default": false
+        }
+      ],
+      "presets": [
+        {
+          "name": "Metafield Gallery Carousel",
+          "category": "Image"
+        }
+      ]
+    }
+    {% endschema %}
