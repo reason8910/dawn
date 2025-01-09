@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -11,13 +20,13 @@
     "type_body_font": "sans-serif",
     "page_width": 1200,
     "text_boxes_shadow_blur": 0,
-    "social_facebook_link": "https:\/\/www.facebook.com\/olliesplaceshop\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/olliesplaceshop\/",
-    "social_tiktok_link": "https:\/\/tiktok.com\/@olliesplace_kids",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UClUEIovjfAWvHY3SuXgw0EA",
-    "favicon": "shopify:\/\/shop_images\/Ollie_s_Place_Favicon-08.png",
+    "social_facebook_link": "https://www.facebook.com/olliesplaceshop/",
+    "social_instagram_link": "https://www.instagram.com/olliesplaceshop/",
+    "social_tiktok_link": "https://tiktok.com/@olliesplace_kids",
+    "social_youtube_link": "https://www.youtube.com/channel/UClUEIovjfAWvHY3SuXgw0EA",
+    "favicon": "shopify://shop_images/Ollie_s_Place_Favicon-08.png",
     "currency_code_enabled": false,
-    "checkout_logo_image": "shopify:\/\/shop_images\/ozland-logo.jpg",
+    "checkout_logo_image": "shopify://shop_images/ozland-logo.jpg",
     "checkout_accent_color": "#2aa3a5",
     "checkout_button_color": "#2aa3a5",
     "sections": {
@@ -29,7 +38,7 @@
             "settings": {
               "text": "Want 10% OFF your next order? Join Ollies Friends",
               "color_scheme": "accent-2",
-              "link": "shopify:\/\/pages\/subsribe-to-ollies-friends"
+              "link": "shopify://pages/subsribe-to-ollies-friends"
             }
           },
           "announcement-bar-0": {
@@ -45,14 +54,13 @@
           "1542a2fc-31a8-46b6-beda-d04b2bd0f2f1",
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Ollie_s_Place_Logos_-_Main.jpg",
+          "logo": "shopify://shop_images/Ollie_s_Place_Logos_-_Main.jpg",
           "logo_width": 250,
           "logo_position": "top-center",
           "menu": "main-menu",
@@ -92,7 +100,7 @@
             "type": "text",
             "settings": {
               "heading": "OLLIES PLACE KIDSWEAR",
-              "subtext": "<p>Proudly Australian owned & operated since 2005.<\/p>"
+              "subtext": "<p>Proudly Australian owned & operated since 2005.</p>"
             }
           }
         },
@@ -116,9 +124,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -145,8 +151,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -166,13 +171,11 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
