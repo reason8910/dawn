@@ -2,7 +2,14 @@
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" defer="defer">
 <!-- JavaScript -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer="defer"></script>
-
+{% style %}
+.carousel-cell {
+  padding-right: {{section.settings.grid_gap}}px;
+}
+.carousel-cell img {
+  height: 600px;
+}
+{% endstyle %}
 <section class="image-gallery-section" id="section-{{ section.id }}">
   {%- if section.settings.heading != blank -%}
     <div class="page-width">{{ section.settings.heading }}</div>
