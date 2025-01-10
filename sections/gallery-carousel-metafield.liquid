@@ -54,7 +54,7 @@
     {% for image in path.value %}
     <div class="carousel-cell">
     
-    <img loading="lazy" src=" {{ image | image_url: height: section.settings.height }}" data-widths="[475, 880, 1200, 1620]" data-aspectratio="{{ image.aspect_ratio }}" data-sizes="auto" />
+    <img loading="lazy" src=" {{ image | image_url: height: section.settings.height }}" data-heights="[475, 880, 1200, 1620]" data-aspectratio="{{ image.aspect_ratio }}" data-sizes="auto" />
     
     <noscript>
     <img class="grid-product__image" loading="lazy" src="{{ image | image_url: height: section.settings.height }}">
