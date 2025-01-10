@@ -24,7 +24,7 @@
         "images_per_row_mobile": 3,
         "grid_gap": 10,
         "radius": 0,
-        "full_width": true,
+        "full_width": false,
         "image_fit": false
       }
     }
