@@ -16,6 +16,7 @@
 .carousel-cell img {
   height: {{section.settings.height}}px;
 }
+.flickity-page-dots{ {% if section.settings.show_dots == false %} display: none; {% endif %} } 
 {% endstyle %}
 
 <div class="meta-image-carousel {% unless section.settings.full_width != blank %} page-width{% endunless %} section-{{ section.id }}-padding">
@@ -98,6 +99,12 @@
           "label": "Autoplay",
           "default": false
         },
+        {
+          "type": "checkbox",
+          "id": "show_dots",
+          "label": "Show dots",
+          "default": false
+        },        
         {
         "type": "range",
         "id": "padding_top",
