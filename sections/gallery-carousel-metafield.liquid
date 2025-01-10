@@ -8,7 +8,7 @@
   padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
 }
 .meta-image-carousel:focus-visible{
-    outline: 0 solid rgba(var(--color-foreground), .5);
+    outline: 0 solid rgba(var(--color-foreground), 0);
   }
 .carousel-cell {
   padding-right: {{section.settings.grid_gap}}px;
@@ -43,7 +43,7 @@
 
   
     <!-- Flickity Carousel Start -->
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": {{ section.settings.autoplay }} }' style="padding-top:7px;">
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": {{ section.settings.autoplay }} }' style="padding-top:8px;">
 
     {% for image in path.value %}
     <div class="carousel-cell">
