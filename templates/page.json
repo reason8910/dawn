@@ -25,6 +25,7 @@
         "height": 600,
         "full_width": false,
         "autoplay": true,
+        "loop": true,
         "show_arrows": true,
         "show_dots": true,
         "padding_top": 36,
