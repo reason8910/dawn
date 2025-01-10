@@ -20,11 +20,11 @@
       "type": "gallery-carousel-metafield",
       "custom_css": [],
       "settings": {
-        "heading": "<h2>Metafield Gallery Carousel</h2>",
+        "heading": "<h2>Metafield Carousel</h2>",
         "grid_gap": 13,
         "height": 300,
         "full_width": false,
-        "autoplay": true,
+        "autoplay": false,
         "loop": true,
         "show_arrows": true,
         "show_dots": true,
