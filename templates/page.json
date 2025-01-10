@@ -19,16 +19,14 @@
     "gallery_carousel_metafield_4UUm3y": {
       "type": "gallery-carousel-metafield",
       "custom_css": [
-        ".main-carousel {padding-top: 10px;}",
-        ".carousel-cell img {height: 600px;}"
+        ".main-carousel {padding-top: 10px;}"
       ],
       "settings": {
         "heading": "<h2>Metafield Gallery Carousel</h2>",
         "images_per_row": 3,
         "images_per_row_mobile": 3,
         "grid_gap": 10,
-        "radius": 50,
-        "full_width": false,
+        "full_width": true,
         "image_fit": false
       }
     }
