@@ -7,6 +7,11 @@
   padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
   padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
 }
+.main-carousel{
+   padding-top: 8px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
 .meta-image-carousel:focus-visible{
     outline: 0 solid rgba(var(--color-foreground), 0);
   }
@@ -43,7 +48,7 @@
 
   
     <!-- Flickity Carousel Start -->
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": {{ section.settings.autoplay }} }' style="padding-top:8px;">
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": {{ section.settings.autoplay }} }'>
 
     {% for image in path.value %}
     <div class="carousel-cell">
