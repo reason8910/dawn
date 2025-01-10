@@ -16,7 +16,12 @@
 .carousel-cell img {
   height: {{section.settings.height}}px;
 }
-.flickity-page-dots{ {% if section.settings.show_dots == false %} display: none; {% endif %} } 
+.flickity-button{ 
+  {% if section.settings.show_arrows == false %} display: none; {% endif %}
+} 
+.flickity-page-dots{ 
+  {% if section.settings.show_dots == false %} display: none; {% endif %}
+} 
 {% endstyle %}
 
 <div class="meta-image-carousel {% unless section.settings.full_width != blank %} page-width{% endunless %} section-{{ section.id }}-padding">
