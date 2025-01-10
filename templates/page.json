@@ -22,7 +22,7 @@
       "settings": {
         "heading": "<h2>Metafield Carousel</h2>",
         "grid_gap": 13,
-        "height": 300,
+        "height": 450,
         "full_width": false,
         "autoplay": false,
         "loop": true,
