@@ -6,7 +6,6 @@
 .section-{{ section.id }}-padding {
   padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
   padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  box-shadow: none;
 }
 .main-carousel{
    padding-top: 8px;
@@ -14,7 +13,10 @@
    padding-right: 10px;
 }
 .meta-image-carousel:focus-visible{
-    outline: 0 solid rgba(var(--color-foreground), 0);
+  outline: 0 solid rgba(var(--color-foreground), 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;  
   }
 .carousel-cell {
   padding-right: {{section.settings.grid_gap}}px;
