@@ -33,7 +33,7 @@
   {%- endif -%}
 
 {%- if path != blank -%}
-  <div class="meta-image-carousel {% unless section.settings.full_width != blank %} page-width{% endunless %}">
+  <div class="meta-image-carousel {% unless section.settings.full_width != blank %} page-width{% endunless %} section-{{ section.id }}-padding">
   
     <!-- Flickity Carousel Start -->
     <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": {{ section.settings.autoplay }} }'>
