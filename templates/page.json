@@ -24,7 +24,7 @@
         "images_per_row": 3,
         "images_per_row_mobile": 3,
         "grid_gap": 10,
-        "height": 500,
+        "height": 600,
         "full_width": true,
         "autoplay": true
       }
