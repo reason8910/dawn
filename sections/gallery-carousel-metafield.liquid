@@ -17,7 +17,7 @@
   height: {{section.settings.height}}px;
 }
 {% endstyle %}
-<section class="image-gallery-section" id="section-{{ section.id }}">
+<div class="meta-image-carousel {% unless section.settings.full_width != blank %} page-width{% endunless %} section-{{ section.id }}-padding">
   {%- if section.settings.heading != blank -%}
     <div class="page-width">{{ section.settings.heading }}</div>
   {%- endif -%}
@@ -33,7 +33,7 @@
   {%- endif -%}
 
 {%- if path != blank -%}
-  <div class="meta-image-carousel {% unless section.settings.full_width != blank %} page-width{% endunless %} section-{{ section.id }}-padding">
+
   
     <!-- Flickity Carousel Start -->
     <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": {{ section.settings.autoplay }} }'>
@@ -52,7 +52,7 @@
     </div>      
     <!-- Flickity Carousel End -->    
     
-  </div>
+ 
   {%- endif -%}
 </section>
 
