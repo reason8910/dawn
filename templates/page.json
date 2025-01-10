@@ -23,7 +23,7 @@
         "heading": "<h2>Metafield Gallery Carousel</h2>",
         "grid_gap": 10,
         "height": 400,
-        "full_width": false,
+        "full_width": true,
         "autoplay": true,
         "padding_top": 36,
         "padding_bottom": 100
