@@ -49,12 +49,12 @@
 
   
     <!-- Flickity Carousel Start -->
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "cover": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": {{ section.settings.autoplay }} }'>
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": {{ section.settings.autoplay }} }'>
 
     {% for image in path.value %}
     <div class="carousel-cell">
     
-    <img loading="lazy" src=" {{ image | image_url: height: section.settings.height }}" data-heights="[400, 800, 1200, 1600]" data-aspectratio="{{ image.aspect_ratio }}" data-sizes="auto" />
+    <img loading="lazy" src=" {{ image | image_url: height: section.settings.height }}" data-aspectratio="{{ image.aspect_ratio }}" data-sizes="auto" />
     
     <noscript>
     <img class="grid-product__image" loading="lazy" src="{{ image | image_url: height: section.settings.height }}">
