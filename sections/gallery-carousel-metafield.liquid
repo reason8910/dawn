@@ -32,7 +32,7 @@
 
 <div class="meta-image-carousel {% unless section.settings.full_width != blank %} page-width{% endunless %} section-{{ section.id }}-padding">
   {%- if section.settings.heading != blank -%}
-    <div class="{% if section.settings.full_width == false %} page-width{% endif %}">{{ section.settings.heading }}</div>
+    <div class="{% if section.settings.full_width == true %} page-width{% endif %}">{{ section.settings.heading }}</div>
   {%- endif -%}
   
   {%- if request.page_type == "article" -%} 
