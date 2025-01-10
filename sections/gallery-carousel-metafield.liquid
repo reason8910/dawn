@@ -29,7 +29,7 @@
   <div class="meta-image-carousel {% unless section.settings.full_width != blank %} page-width{% endunless %}">
   
     <!-- Flickity Carousel Start -->
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": true }'>
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "initialIndex": 2, "cellAlign": "center", "autoPlay": {{ section.settings.autoplay }} }'>
     {% assign file = path.value %}
     {% for image in path.value %}
     <div class="carousel-cell">
