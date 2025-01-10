@@ -3,6 +3,9 @@
 <!-- JavaScript -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer="defer"></script>
 {% style %}
+.meta-image-carousel:focus-visible{
+    outline: 0 solid rgba(var(--color-foreground), .5);
+  }
 .carousel-cell {
   padding-right: {{section.settings.grid_gap}}px;
 }
